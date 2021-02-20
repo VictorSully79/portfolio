@@ -1,0 +1,38 @@
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: 300;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+  -moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  outline: 0;
+}
+
+a:hover {
+  color: #E27689;
+  border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
